@@ -1,7 +1,6 @@
 # Ngnix-Ingress-Controller-aks
-## Ngnix Ingress Controller for AKS
 
-# Main Part - Ngnix Ingress Controller is working with Azure Kubernetes Service (AKS)
+## Ngnix Ingress Controller is working with Azure Kubernetes Service (AKS)
 
 ## Source Link - https://learn.microsoft.com/en-us/azure/aks/ingress-basic?tabs=azure-cli
 
