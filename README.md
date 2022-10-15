@@ -15,7 +15,9 @@
 
 ### $ helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 ### $ helm repo update
-### Use Helm to deploy an NGINX ingress controller
+
+> Use Helm to deploy an NGINX ingress controller
+
 ~~~
 $ helm install nginx-ingress ingress-nginx/ingress-nginx \
     --version 4.1.3 \
