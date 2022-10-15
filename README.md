@@ -9,7 +9,7 @@
 ***
 ## 01 - Create an ingress controller
 
-### > Add the ingress-nginx repository
+> Add the ingress-nginx repository
 
 ### $ helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 ### $ helm repo update
@@ -80,10 +80,10 @@ aks-helloworld-two-574fd6f6fb-s6nt5                       1/1     Running   0   
 
 ## 04 - Test the ingress controller
 
-### > App1 on website  
+> App1 on website  
 http://{EXTERNAL_IP}
 
-### > App2 on website  
+> App2 on website  
 http://{EXTERNAL_IP}/hello-world-two
 
 ***
