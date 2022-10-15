@@ -5,6 +5,8 @@
 ## Source Link - https://learn.microsoft.com/en-us/azure/aks/ingress-basic?tabs=azure-cli
 
 ***
+> Adding Name Space
+
 ### $ kubectl create ns ingress-basic
 ***
 ## 01 - Create an ingress controller
