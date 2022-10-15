@@ -23,6 +23,7 @@ $ helm install nginx-ingress ingress-nginx/ingress-nginx \
     --set controller.nodeSelector."kubernetes\.io/os"=linux \
     --set controller.admissionWebhooks.patch.nodeSelector."kubernetes\.io/os"=linux \
     --set controller.service.annotations."service\.beta\.kubernetes\.io/azure-load-balancer-health-probe-request-path"=/healthz \
+    
 ~~~
 
 ### $ kubectl get service --namespace ingress-basic -o wide
